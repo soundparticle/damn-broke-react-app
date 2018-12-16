@@ -1,10 +1,10 @@
 # Welcome to my Damn Broken React App
 
-The idea behind this project is that it's broken. ...well, this *master* branch isn't but I seemed to have *broken* some of the things on the other branches. I would recommend reading the [ReactJS documents](https://reactjs.org/docs/getting-started.html) first when you are trying to *defunkify* a branch however, this master branch does|should work and if you can always look at differentials for clues.
+The idea behind this project is that it's broken. ...well, this *master* branch isn't but I seemed to have *broken* some of the things on the other branches. I would recommend reading the [ReactJS documents](https://reactjs.org/docs/getting-started.html) first when you are trying to *defunkify* a branch however, this master branch does|should work and you can always look at differentials for clues.
 
 I have also left a trail of hints, sometimes as inline comments and sometimes markdown files. If you get stuck, make sure to read them. Also, please note that each branch will be different in how hints are given. 
 
-## Now lets *break* down how this project is set up. 
+## Lets *break* down how this project is set up. 
 
 ![Break Dancers](./readme-images/break-dancers.gif)
 
@@ -19,8 +19,8 @@ If you have any questions or concerns, even ones on topic just reach out to [Rex
 # My Damn Broken Branches
 | Title | Description | Branch | Resources | 
 |:---:|:---|:----:|:---:|
-|**No Render!?**| I think of JSX as just a way to have `JavaScript` store `HTML`. ReactJS can detect the JSX and knows how to render it into the DOM, however it has a few nuances for detection. Understanding them is a great way to not have to think about them later. | **dont-render** | [JSX-In Depth](https://reactjs.org/docs/jsx-in-depth.html) | 
-|**No Blurbz!?**| Passing in `props` are a core part to how we build a ReactJS data flow. Let's give some `props` to React! Yea!| **oh-no-props** | [Components and Props](https://reactjs.org/docs/components-and-props.html)|
+|**No Render!?**| I think of JSX as just a way to have `JavaScript` store `HTML`. ReactJS can detect the JSX and knows how to render it into the DOM however, it has a few nuances for detection. Understanding them is a great way to not have to think about them later. | **dont-render** | [JSX-In Depth](https://reactjs.org/docs/jsx-in-depth.html) | 
+|**No Blurbz!?**| Passing in `props` are a core part to how we build a ReactJS data flow. Let's give some `props` to React! Yea! Woot!| **oh-no-props** | [Components and Props](https://reactjs.org/docs/components-and-props.html)|
 
 
 # Stuff that came with the CLI setup tool...
