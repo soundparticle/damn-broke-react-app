@@ -1,3 +1,30 @@
+# Welcome to my Damn Broken React App
+
+The idea behind this project is that it's broken. ...well, this *master* branch isn't but I seemed to have *broken* some of the things on the other branches. I would recommend reading the [ReactJS documents](https://reactjs.org/docs/getting-started.html) first when you are trying to *defunkify* a branch however, this master branch does|should work and if you can always look at differentials for clues.
+
+I have also left a trail of hints, sometimes as inline comments and sometimes markdown files. If you get stuck, make sure to read them. Also, please note that each branch will be different in how hints are given. 
+
+## Now lets *break* down how this project is set up. 
+
+![Break Dancers](./readme-images/break-dancers.gif)
+
+I have made an assumption that you are comfortable with `JavaScript`, if your not just copy and paste the part that confuses you into Google and include the acronym `MDN`. That should give you a good starting point. [MDN](https://developer.mozilla.org/en-US/) is like a pop-up storybook for web specs. Love it.
+
+Coding ain't easy so I'm *not* going to rank these branches by difficulty but by how complex the fixes are. `i.e. The more I have to type, the more complex it is.` Well... at least the ones I was intending to show. There's always more than one way to confuse a lead. 
+
+If you have any questions or concerns, even ones on topic just reach out to [Rex(rbeatie@twilio.com)](rbeatie@twilio.com).
+
+> Happy Hacking! -Rex
+
+# My Damn Broken Branches
+| Title | Description | Branch | Resources | 
+|:---:|:---|:----:|:---:|
+|**No Render!?**| I think of JSX as just a way to have `JavaScript` store `HTML`. ReactJS can detect the JSX and knows how to render it into the DOM, however it has a few nuances for detection. Understanding them is a great way to not have to think about them later. | **dont-render** | [JSX-In Depth](https://reactjs.org/docs/jsx-in-depth.html) | 
+|**No Blurbz!?**| Passing in `props` are a core part to how we build a ReactJS data flow. Let's give some `props` to React! Yea!| **oh-no-props** | [Components and Props](https://reactjs.org/docs/components-and-props.html)|
+
+
+# Stuff that came with the CLI setup tool...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -31,7 +58,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you arn’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
