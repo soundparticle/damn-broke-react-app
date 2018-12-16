@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { BlurbComponent } from "./Blurb";
 import logo from './logo.svg';
-import './App.css';
+import './app.css';
 
 class App extends Component {
-  render() {
+
+  // You dont want to use this value, try using the value you passed in from your index.js file.
+  render(props = {text: 'this ain\'t right'}) {
     return (
       <div className="App">
         <header className="App-header">
@@ -11,14 +14,11 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div className="App-blurb">
+            <h1>Oh No! Where Я meh blurbz!?</h1>
+            <small>{props.text}</small>
+            <BlurbComponent text={props.text}/>
+          </div>
         </header>
       </div>
     );
